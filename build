@@ -81,7 +81,7 @@ fi
 
 # Remove packages
 echo 'Removing unneeded packages'
-/usr/bin/yum -q -y remove httpd* nginx* php* > /dev/null 2>&1
+/usr/bin/yum -q -y remove httpd* nginx* php* php54* > /dev/null 2>&1
 
 # Install Nginx
 echo 'Installing Nginx'
