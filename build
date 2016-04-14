@@ -24,7 +24,7 @@ while true; do
                       ADDONS=$1;;
         -v|--version) echo "$VERSION"
                       exit 0;;
-        -h|--help)    echo "Usage: $FILE [options] 
+        -h|--help)    echo "Usage: $FILE [options]
        $FILE --version
 
 Convert AMI instance from Apache to Nginx/PHP-FPM. With support for deployment hooks, Varnish and more through addon packages    
@@ -129,7 +129,7 @@ echo 'Updating packages'
 
 # Take ownership
 echo 'Correcting permissions'
-/bin/chown -R elasticbeanstalk:elasticbeanstalk /etc/nginx/conf.d \
+/bin/chown -R root:root /etc/nginx/conf.d \
                                                 /opt/elasticbeanstalk \
                                                 /var/log/nginx \
                                                 /var/log/php-fpm
