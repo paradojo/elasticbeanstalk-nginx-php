@@ -135,6 +135,8 @@ echo 'Correcting permissions'
                                                 /var/log/php-fpm
 
 # Clear unneeded files
+echo 'oliolioliolioliolioli'
+
 echo 'Clearing unneeded files'
 /bin/rm -rf /etc/httpd \
             /opt/elasticbeanstalk/var/log/* \
