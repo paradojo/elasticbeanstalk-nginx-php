@@ -54,7 +54,7 @@ fi
 # Download files and folders
 echo "Downloading build files and folders"
 /bin/rm -rf /tmp/build
-/usr/bin/git clone git://github.com/jleck/elasticbeanstalk-nginx-php.git /tmp/build > /dev/null 2>&1
+/usr/bin/git clone git://github.com/paradojo/elasticbeanstalk-nginx-php.git /tmp/build > /dev/null 2>&1
 if [ ! -f '/tmp/build/build' ]; then
     echo 'Error downloading main folders'
     exit 1
