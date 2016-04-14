@@ -19,5 +19,5 @@ fi
 
 # End script
 /bin/mv composer.phar /usr/bin/composer
-/bin/chown -R elasticbeanstalk:elasticbeanstalk /usr/bin/composer
+/bin/chown -R root:root /usr/bin/composer
 exit 0
